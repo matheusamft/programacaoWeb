@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sítio Histórico e Patrimônio Cultural Kalunga</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fontes Google: Playfair Display e Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- CSS Customizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Cabeçalho / Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio">
+                <i class="bi bi-compass-fill text-brand fs-4"></i>
+                <span class="fw-bold">Sítio Histórico Kalunga</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Menu de Navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link active" href="#inicio">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#territorio">O Território</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cultura">Cultura e Tradição</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sustentabilidade">Sustentabilidade</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#manifesto">Manifesto Ético</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Hero / Introdução Principal -->
+    <header id="inicio" class="hero-section">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10">
+                    <span class="hero-tag mb-3">Patrimônio Cultural e Histórico</span>
+                    <h1 class="display-4 fw-bold mb-3 text-brand">Sítio Histórico Kalunga</h1>
+                    <h2 class="h4 fw-normal text-muted-custom mb-4">Resistência, Memória e Vida no Coração do Cerrado</h2>
+                    <p class="lead mb-4 mx-auto" style="max-width: 820px;">
+                        Bem-vindo ao portal do maior território quilombola remanescente do Brasil [243, 245]. Um espaço de ancestralidade, soberania e convivência harmoniosa com o Cerrado, erguido por homens e mulheres que transformaram as fendas das serras em trincheiras de liberdade [95, 165, 166].
+                    </p>
+                    <div>
+                        <a href="#territorio" class="btn btn-brand me-2 mb-2">Explore a Nossa História</a>
+                        <a href="#manifesto" class="btn btn-outline-brand mb-2">Manifesto Ético</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. Seção: Origem e Territorialidade -->
+    <section id="territorio" class="section-padrao section-fundo-alt">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <!-- Texto Histórico -->
+                <div class="col-lg-7">
+                    <span class="badge-secao">Origem e Territorialidade</span>
+                    <h2 class="h2 fw-bold mb-3">Um Refúgio entre Serras e Vãos</h2>
+                    
+                    <p class="mb-3">
+                        A história do povo Kalunga se inicia no <strong>século XVIII</strong> [165, 284]. Com a implantação do ciclo minerador das "Minas dos Goyazes" pelos bandeirantes, milhares de africanos foram escravizados e submetidos a condições violentas de exploração nas jazidas de ouro de Cavalcante, Morro do Chapéu (Monte Alegre) e Arraias [165, 284].
+                    </p>
+                    <p class="mb-3">
+                        Recusando a submissão, grupos de negros escravizados empreenderam fugas estratégicas em direção aos vales profundos e serras de difícil acesso formados pelas bacias dos rios Paranã e das Almas [94, 165, 166, 185]. Nesse isolamento geográfico protetor, que se estende por cerca de <strong>263,2 mil hectares</strong> no Nordeste Goiano, nossos ancestrais fundaram as bases de um território autônomo, assentado na ajuda mútua e na liberdade [94, 95, 121, 165, 166, 186].
+                    </p>
+
+                    <!-- Acordeon: Significado de Kalunga -->
+                    <div class="custom-accordion mt-4">
+                        <div class="accordion-card active">
+                            <div class="accordion-header-custom" role="button">
+                                <h5 class="mb-0 fw-bold">O Significado de Kalunga</h5>
+                                <i class="bi bi-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-body-custom">
+                                <p class="mb-2">
+                                    O nome Kalunga, assumido com orgulho pela comunidade, carrega múltiplos significados ancestrais [105, 106, 164]:
+                                </p>
+                                <ul class="mb-0 ps-3">
+                                    <li class="mb-1"><strong>Pessoa Importante e Respeitada:</strong> De origem banto, significa "pessoa importante, admirável e respeitada" [164, 166, 212].</li>
+                                    <li class="mb-1"><strong>Crença e Ancestralidade:</strong> Para congos e angolanos, liga-se ao culto aos antepassados e forças coletivas [164, 166, 212].</li>
+                                    <li><strong>Cotidiano da Terra:</strong> Nome de um ribeirão local e de uma tradicional planta medicinal nativa do Cerrado [174].</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Painel Territorial -->
+                <div class="col-lg-5">
+                    <div class="cartao-simples">
+                        <h4 class="h5 fw-bold mb-3">Distribuição do Território</h4>
+                        <p class="small text-muted-custom mb-3">
+                            O Sítio Histórico e Patrimônio Cultural Kalunga abrange cerca de <strong>263.200 hectares</strong> divididos entre três municípios principais [252, 305]:
+                        </p>
+
+                        <!-- Cavalcante -->
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between small fw-bold mb-1">
+                                <span>Cavalcante</span>
+                                <span class="text-brand">71%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-brand" style="width: 71%;" role="progressbar">71%</div>
+                            </div>
+                        </div>
+
+                        <!-- Teresina de Goiás -->
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between small fw-bold mb-1">
+                                <span>Teresina de Goiás</span>
+                                <span class="text-gold">15%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-gold text-dark fw-bold" style="width: 15%;" role="progressbar">15%</div>
+                            </div>
+                        </div>
+
+                        <!-- Monte Alegre -->
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between small fw-bold mb-1">
+                                <span>Monte Alegre de Goiás</span>
+                                <span class="text-muted-custom">13%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-secondary" style="width: 13%;" role="progressbar">13%</div>
+                            </div>
+                        </div>
+
+                        <p class="small text-muted-custom mt-3 mb-3">
+                            O relevo íngreme da Chapada dos Veadeiros serviu como barreira geográfica natural para a proteção e preservação das comunidades [94, 95].
+                        </p>
+
+                        <button class="btn btn-brand w-100 btn-sm" data-bs-toggle="modal" data-bs-target="#municipiosModal">
+                            <i class="bi bi-info-circle me-1"></i> Ver Detalhes dos Municípios
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Seção: Vozes e Autoestima -->
+    <section id="cultura" class="section-padrao section-fundo-branco">
+        <div class="container">
+            <div class="row align-items-center g-4 flex-lg-row-reverse">
+                <!-- Texto Cultural -->
+                <div class="col-lg-7">
+                    <span class="badge-secao">Vozes e Autoestima</span>
+                    <h2 class="h2 fw-bold mb-3">Fortalecendo Gênero, Juventude e Memória</h2>
+                    
+                    <p class="mb-3">
+                        O futuro do território Kalunga floresce a partir da união de suas gerações e do empoderamento das mulheres e jovens quilombolas [47]. Em comunidades como <strong>Extrema e Levantado</strong> (no município de Iaciara-GO) — fundadas a partir de uma gleba de terra comprada de forma coletiva por <strong>nove irmãos entre 1932 e 1933</strong> [50] —, o povoado mantém vivas as suas raízes por meio da transmissão oral da história [13, 50, 51].
+                    </p>
+                    <p class="mb-3">
+                        Lideradas por matriarcas respeitadas como <strong>Dona Catarina</strong> (80 anos) [51] e patriarcas como <strong>Seu Anastácio</strong> [53, 56], as comunidades resistem contra as tentativas externas de descaracterizar suas tradições de fé e trabalho [54]. Sob as bênçãos dos mais velhos, jovens e mulheres participam de oficinas comunitárias para a confecção de instrumentos rústicos e o aprendizado das danças tradicionais da <strong>Sussia</strong> e do <strong>Curraleiro</strong> [47, 56].
+                    </p>
+
+                    <div class="mt-3">
+                        <button class="btn btn-brand" data-bs-toggle="modal" data-bs-target="#oficinasModal">
+                            <i class="bi bi-people me-1"></i> Conheça as Oficinas e Projetos
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Citação e Tradições -->
+                <div class="col-lg-5">
+                    <div class="citacao-box">
+                        <p>"Cultura é qualquer benefício que dê resultado para a humanidade, por exemplo, a roça."</p>
+                        <footer>— Dona Catarina, Matriarca do Povoado Extrema [58]</footer>
+                    </div>
+
+                    <!-- Fotografia Oficial e Ficha Técnica -->
+                    <div class="mb-4">
+                        <img src="imagens/dona-catarina.png" alt="Matriarca Kalunga Carregando Madeira de Fogão" class="img-fluid rounded border mb-2">
+                        <div class="p-3 bg-light border rounded small text-muted-custom">
+                            <strong class="d-block text-brand mb-1">Matriarca Kalunga Carregando Madeira de Fogão</strong>
+                            <p class="mb-2 fst-italic">"As comunidades do Sítio Kalunga são normalmente matriarcais, e na maioria das vezes a mulher tem o papel de trazer os mantimentos diários para a casa."</p>
+                            <div class="small" style="font-size: 0.78rem;">
+                                <span><strong>Fotógrafos:</strong> Raoní Pires Mendonça e Giovanna Adriana Tavares Gomes</span><br>
+                                <span><strong>Lugar:</strong> Monte Alegre de Goiás &nbsp;|&nbsp; <strong>Data:</strong> Outubro de 2012</span><br>
+                                <span><strong>Fonte:</strong> <a href="https://files.cercomp.ufg.br/weby/up/133/o/EXPOSI%C3%87%C3%83O_FOTOGR%C3%81FICA.pdf" target="_blank" rel="noopener noreferrer" class="text-brand text-decoration-none">Exposição Fotográfica (UFG) <i class="bi bi-box-arrow-up-right"></i></a></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cartao-simples">
+                        <h5 class="fw-bold mb-3">Expressões e Saberes Vivos</h5>
+                        <ul class="list-unstyled mb-0 small">
+                            <li class="mb-2"><strong>• A Sussia:</strong> Dança circular festiva praticada ao som de tambores rústicos [56].</li>
+                            <li class="mb-2"><strong>• Dança do Curraleiro:</strong> Tradição sagrada celebrada nas festas e folias quilombolas [47].</li>
+                            <li class="mb-2"><strong>• Instrumentos Rústicos:</strong> Confecção artesanal de caixas, tambores e violas com madeiras e couros locais [56].</li>
+                            <li><strong>• Biojoias e Capim Dourado:</strong> Trançados delicados e sementes nativas coletadas no Cerrado [47].</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Seção: Sustentabilidade e Cerrado -->
+    <section id="sustentabilidade" class="section-padrao section-fundo-alt">
+        <div class="container">
+            <div class="text-center mb-4">
+                <span class="badge-secao">Convivência Harmoniosa</span>
+                <h2 class="h2 fw-bold">Sustentabilidade e Cerrado</h2>
+                <p class="text-muted-custom mx-auto" style="max-width: 650px;">
+                    Os saberes tradicionais garantem o equilíbrio do bioma Cerrado e a segurança alimentar das famílias.
+                </p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="custom-accordion">
+                        
+                        <!-- Item 1 -->
+                        <div class="accordion-card active">
+                            <div class="accordion-header-custom" role="button">
+                                <h5 class="mb-0 fw-bold">1. A Planta Kalunga e a Farmácia do Cerrado</h5>
+                                <i class="bi bi-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-body-custom">
+                                <p class="mb-0">
+                                    A biodiversidade do Cerrado é uma farmácia viva. Além de dar nome à comunidade, a <strong>planta medicinal Kalunga</strong> (raiz amarga usada no combate a males gástricos) exemplifica o conhecimento da botânica nativa preservado oralmente por parteiras, benzedeiras e rezadores [174, 234, 238].
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="accordion-card">
+                            <div class="accordion-header-custom" role="button">
+                                <h5 class="mb-0 fw-bold">2. A Roça de Coivara e a Soberania Alimentar</h5>
+                                <i class="bi bi-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-body-custom">
+                                <p class="mb-0">
+                                    A agricultura tradicional Kalunga fundamenta-se na roça de subsistência com rotação de terras e descanso de solo [58]. Essa prática milenar evita a erosão e mantém a fertilidade natural sem a necessidade de defensivos químicos [58, 234].
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="accordion-card">
+                            <div class="accordion-header-custom" role="button">
+                                <h5 class="mb-0 fw-bold">3. Preservação dos Recursos Hídricos</h5>
+                                <i class="bi bi-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-body-custom">
+                                <p class="mb-0">
+                                    O território abriga nascentes cruciais para as bacias dos rios Paranã e das Almas [94]. As regras comunitárias de conservação proíbem desmatamentos nas margens de rios e córregos, mantendo a pureza das águas da Chapada [94, 95].
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Seção: Manifesto Ético -->
+    <section id="manifesto" class="section-padrao section-fundo-branco">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="cartao-destaque">
+                        <span class="badge-secao">Posicionamento Ético e Comunitário</span>
+                        <h3 class="h3 fw-bold text-brand mb-3">Manifesto Ético: Autoimagem e Respeito</h3>
+                        <p class="mb-4">
+                            O Sítio Histórico Kalunga atrai o interesse frequente de pesquisadores, estudantes e fotógrafos de diversas partes do mundo [210, 227]. Para assegurar uma representação digna, este manifesto fundamenta-se nas diretrizes das lideranças comunitárias, como <strong>Vilmar Souza Costa</strong> [210]:
+                        </p>
+
+                        <div class="row g-3 mb-4">
+                            <div class="col-md-4">
+                                <div class="p-3 bg-white border rounded h-100">
+                                    <h6 class="fw-bold text-brand mb-2"><i class="bi bi-arrow-repeat me-1"></i> Retorno Social</h6>
+                                    <p class="small text-muted-custom mb-0">Rejeição a pesquisas que utilizem a comunidade apenas como objeto sem gerar retorno prático, cultural ou econômico para as famílias [210].</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 bg-white border rounded h-100">
+                                    <h6 class="fw-bold text-brand mb-2"><i class="bi bi-shield-check me-1"></i> Combate à Exotização</h6>
+                                    <p class="small text-muted-custom mb-0">Não compactuar com a folclorização ou estereótipos. O povo Kalunga é agente ativo e soberano da sua própria história e voz [141, 155].</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 bg-white border rounded h-100">
+                                    <h6 class="fw-bold text-brand mb-2"><i class="bi bi-camera me-1"></i> Direito de Imagem</h6>
+                                    <p class="small text-muted-custom mb-0">Respeito irrestrito ao direito de cada morador de não querer ser fotografado, filmado ou entrevistado sem consentimento livre e prévio [188, 210].</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 bg-white border rounded text-center small text-muted-custom mb-0">
+                            <em>"Este espaço celebra a soberania, a memória e a dignidade do povo Kalunga." [145, 146]</em>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Rodapé -->
+    <footer>
+        <div class="container text-center">
+            <h6 class="small fw-bold text-uppercase text-dark mb-3">Referências</h6>
+            <div class="d-flex flex-wrap justify-content-center gap-4 mb-3">
+                <a href="https://files.cercomp.ufg.br/weby/up/133/o/EXPOSI%C3%87%C3%83O_FOTOGR%C3%81FICA.pdf" target="_blank" rel="noopener noreferrer" class="text-brand text-decoration-none">
+                    <i class="bi bi-file-earmark-pdf me-1"></i> Exposição Fotográfica (UFG)
+                </a>
+                <a href="https://www.pucgoias.edu.br/mestrado-e-doutorado/biblioteca-kalunga/" target="_blank" rel="noopener noreferrer" class="text-brand text-decoration-none">
+                    <i class="bi bi-journal-bookmark me-1"></i> Biblioteca Kalunga (PUC Goiás)
+                </a>
+            </div>
+            <hr class="my-3 border-secondary-subtle">
+            <div class="text-muted-footer small">
+                &copy; 2026 Sítio Histórico Kalunga. Projeto Acadêmico de Programação Web.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modais -->
+    <!-- Modal: Municípios -->
+    <div class="modal fade" id="municipiosModal" tabindex="-1" aria-labelledby="municipiosModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-brand text-white">
+                    <h5 class="modal-title h6 fw-bold" id="municipiosModalLabel">Distribuição Territorial Kalunga</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <p class="small text-muted-custom mb-3">
+                        O território de 263.200 hectares está distribuído no Nordeste de Goiás entre três municípios [252, 305]:
+                    </p>
+                    
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between small fw-bold mb-1">
+                            <span>Cavalcante</span>
+                            <span class="text-brand">71%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-brand" style="width: 71%;">71%</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between small fw-bold mb-1">
+                            <span>Teresina de Goiás</span>
+                            <span class="text-gold">15%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-gold text-dark fw-bold" style="width: 15%;">15%</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between small fw-bold mb-1">
+                            <span>Monte Alegre</span>
+                            <span class="text-muted-custom">13%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-secondary" style="width: 13%;">13%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer bg-light p-2">
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Oficinas -->
+    <div class="modal fade" id="oficinasModal" tabindex="-1" aria-labelledby="oficinasModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-brand text-white">
+                    <h5 class="modal-title h6 fw-bold" id="oficinasModalLabel">Oficinas e Projetos Comunitários</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <p class="small text-muted-custom mb-3">
+                        Projetos práticos voltados para jovens e mulheres na preservação da identidade tradicional [47]:
+                    </p>
+                    
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="p-3 border rounded h-100 bg-light">
+                                <h6 class="fw-bold text-brand mb-1">Oficinas de Sussia</h6>
+                                <p class="small text-muted-custom mb-0">Ensino da dança de roda e do toque do tambor para as novas gerações [56].</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 border rounded h-100 bg-light">
+                                <h6 class="fw-bold text-brand mb-1">Dança do Curraleiro</h6>
+                                <p class="small text-muted-custom mb-0">Preservação dos cantos e toques sagrados celebrados nas festas tradicionais [47].</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 border rounded h-100 bg-light">
+                                <h6 class="fw-bold text-brand mb-1">Instrumentos Rústicos</h6>
+                                <p class="small text-muted-custom mb-0">Construção artesanal de tambores e violas com materiais nativos sustentáveis [56].</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 border rounded h-100 bg-light">
+                                <h6 class="fw-bold text-brand mb-1">Biojoias e Artesanato</h6>
+                                <p class="small text-muted-custom mb-0">Trançados de capim dourado e biojoias com sementes do Cerrado [47].</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer bg-light p-2">
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle (Local) -->
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script Customizado -->
+    <script src="script.js"></script>
+</body>
+</html>
