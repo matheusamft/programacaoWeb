@@ -1,20 +1,16 @@
-/* ==========================================================================
-   PORTAL SÍTIO HISTÓRICO KALUNGA - ESTILOS
-   Projeto de Programação Web - Memória Viva
-   Cores: Terracota (#A13D2D), Areia (#F8F6F2), Preto (#212121), Dourado (#C59B27)
-   ========================================================================== */
 
-/* 1. Variáveis e Reset */
+
+
 :root {
-    --cor-primaria: #A13D2D;         /* Terracota */
-    --cor-primaria-hover: #832E21;   /* Terracota Escuro */
-    --cor-destaque: #C59B27;         /* Dourado Suave */
-    --cor-fundo: #F8F6F2;            /* Areia / Off-white */
-    --cor-fundo-alt: #EFEBE4;        /* Areia Secundário */
-    --cor-texto: #2C2828;            /* Texto Principal */
-    --cor-texto-mutado: #6B625E;     /* Texto Secundário */
-    --cor-borda: #DDD4CB;            /* Borda Suave */
-    --cor-terracota-suave: #FDF4F2;  /* Fundo de citação e caixas */
+    --cor-primaria: #A13D2D;         
+    --cor-primaria-hover: #832E21;   
+    --cor-destaque: #C59B27;         
+    --cor-fundo: #F8F6F2;            
+    --cor-fundo-alt: #EFEBE4;        
+    --cor-texto: #2C2828;            
+    --cor-texto-mutado: #6B625E;     
+    --cor-borda: #DDD4CB;            
+    --cor-terracota-suave: #FDF4F2;  
 }
 
 html {
@@ -31,7 +27,7 @@ body {
     padding: 0;
 }
 
-/* 2. Tipografia */
+
 h1, h2, h3, h4, h5, .font-titulo, .navbar-brand {
     font-family: 'Playfair Display', Georgia, serif;
     color: var(--cor-texto);
@@ -58,7 +54,7 @@ h1, h2, h3, h4, h5, .font-titulo, .navbar-brand {
     display: inline-block;
 }
 
-/* 3. Navbar */
+
 .navbar {
     background-color: #FFFFFF;
     border-bottom: 2px solid var(--cor-destaque);
@@ -86,7 +82,7 @@ h1, h2, h3, h4, h5, .font-titulo, .navbar-brand {
     color: var(--cor-primaria) !important;
 }
 
-/* 4. Botões */
+
 .btn-brand {
     background-color: var(--cor-primaria);
     color: #FFFFFF !important;
@@ -117,7 +113,7 @@ h1, h2, h3, h4, h5, .font-titulo, .navbar-brand {
     color: #FFFFFF !important;
 }
 
-/* 5. Seções e Estrutura */
+
 .section-padrao {
     padding: 4rem 0;
 }
@@ -132,7 +128,7 @@ h1, h2, h3, h4, h5, .font-titulo, .navbar-brand {
     background-color: #FFFFFF;
 }
 
-/* Hero Section */
+
 .hero-section {
     background-color: #FFFFFF;
     border-bottom: 1px solid var(--cor-borda);
@@ -149,7 +145,7 @@ h1, h2, h3, h4, h5, .font-titulo, .navbar-brand {
     display: inline-block;
 }
 
-/* 6. Cartões e Caixas de Destaque */
+
 .cartao-simples {
     background-color: #FFFFFF;
     border: 1px solid var(--cor-borda);
@@ -164,7 +160,7 @@ h1, h2, h3, h4, h5, .font-titulo, .navbar-brand {
     padding: 1.5rem;
 }
 
-/* Citação / Blockquote */
+
 .citacao-box {
     background-color: var(--cor-terracota-suave);
     border-left: 4px solid var(--cor-primaria);
@@ -187,7 +183,7 @@ h1, h2, h3, h4, h5, .font-titulo, .navbar-brand {
     color: var(--cor-texto);
 }
 
-/* 7. Acordeon Customizado */
+
 .custom-accordion .accordion-card {
     background: #FFFFFF;
     border: 1px solid var(--cor-borda);
@@ -240,7 +236,7 @@ h1, h2, h3, h4, h5, .font-titulo, .navbar-brand {
     transform: rotate(180deg);
 }
 
-/* 8. Rodapé */
+
 footer {
     background-color: var(--cor-fundo-alt);
     color: var(--cor-texto);
@@ -264,7 +260,7 @@ footer a {
 }
 
 
-/* 9. Modais e Barras de Progresso */
+
 .modal-content {
     border: 1px solid var(--cor-borda);
     border-radius: 8px;
@@ -288,7 +284,7 @@ footer a {
     background-color: var(--cor-destaque);
 }
 
-/* 10. Responsividade */
+
 @media (max-width: 767.98px) {
     .hero-section {
         padding: 3rem 0 2rem 0;
